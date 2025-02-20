@@ -1,0 +1,20 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-d": "editor::DuplicateLineDown"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl-n": "workspace::NewTerminal"
+    }
+  }
+]
